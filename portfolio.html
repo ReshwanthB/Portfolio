@@ -9,7 +9,7 @@
         body {
             padding: 0;
             margin: 0;
-            background-color: rgb(224, 217, 217);
+            background-color: white;
             color: black;
         }
 
@@ -37,9 +37,12 @@
 
         .details {
             display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            text-align: center;
+            justify-content: space-evenly;
+            margin: 30px;
+
+        } 
+        .details div{
+            padding: 10px;
         }
 
         table,
@@ -55,7 +58,7 @@
         }
     </style>
 
-    <title>Welcome | Home</title>
+    <title>Bande Reshwanth Portfolio</title>
 </head>
 
 <body>
@@ -66,10 +69,13 @@
                 src="https://tse1.mm.bing.net/th?id=OIP.6QEnwx-yBs4xROe1N64xewHaCg&pid=Api&P=0" alt="SRM logo">
         </div>
         <div class="items">
-            <a href="">About Me</a>
-            <a href="">Academics</a>
-            <a href="">Projects</a>
-            <a href="">Hobbies</a>
+            <a href="#details">About Me</a>
+            <a href="#academics">Academics</a>
+            <a href="#Projects">Projects</a>
+            <a href="#technical">Technical</a>
+            <a href="#por">POR</a>
+            <a href="#Internships">Internships</a>
+            <a href="#Contact">Contact</a>
         </div>
     </div>
 
@@ -77,39 +83,50 @@
     <div class="details">
 
         <div>
-            <img width="200px" height="200px" src="My Image.jpg" alt="my image">
+            <img width="200px" height="200px" src="Bande Reshwanth.png" alt="my image">
         </div>
-        <div> Name:- E.Sai Tarun Kumar Reddy</div>
-        <div>Course : B.Tech, CSE, 2023</div>
-        <div>Email : et3219@srmist.edu.in</div>
+
+        <div>
+            <div> Name:- Bande Reshwanth</div>
+            <div>Course : Bachelors of Technology, Electronics and Communication Engineering, 2019-2023</div>
+            <div>Career Objective: To work in a professional and scientific work driven organization where I could learn, enhance and improve skills and knowledge gained, to make a noteworthy contribution to the organization.</div>
+        <div> Personality: Self-motivated person with Critical thinking and problem-solving skills, confident and equipped with leadership qualities, ability to cope up with different situations.
+            
+            </div>
+        </div>
+       
     </div>
     <hr>
 
-    <div class="academics">
+    <div id="academics">
         <table style="width:100%">
             <tr>
                 <th>Course</th>
                 <th>Institute/College</th>
                 <th>Board/University</th>
                 <th>Score</th>
+                <th>Passing Year</th>
             </tr>
             <tr>
-                <td>CLASS X</td>
-                <td>ST.Antony's public school</td>
-                <td>CBSE</td>
-                <td>8.4 CGPA</td>
+                <td>B. Tech</td>
+                <td>SRM Institute of Science and Technology</td>
+                <td>SRM University</td>
+                <td>8.99 CGPA</td>
+                <td>2023</td>
             </tr>
             <tr>
                 <td>CLASS XII</td>
                 <td>Urbane Junior College</td>
                 <td>Telangana Board of Intermediate</td>
-                <td>958 Marks</td>
+                <td>944 Marks</td>
+                <td>2019</td>
             </tr>
             <tr>
-                <td>B.TECH</td>
-                <td>SRM INSTITUTE</td>
-                <td>-</td>
-                <td>9.19 CGPA</td>
+                <td>Class X</td>
+                <td>Vikas - The Concept School</td>
+                <td>Central Board of Secondary Education</td>
+                <td>9.6 CGPA</td>
+                <td>2017</td>
             </tr>
         </table>
     </div>
@@ -117,21 +134,19 @@
     <br>
     <br>
 
-    <div class="technical">
+    <div id="technical">
         <table style="width:100%">
             <tr>
                 <th>Subjects/Electives</th>
                 <th>Technical Proficiency</th>
+                <th>Certifications</th>
 
             </tr>
             <tr>
-                <td>Cloud Architecture, Object Oriented Design and Programming, Computer Communications, Software
-                    Engineering and Project Management, Programming for Problem solving, Design and Analysis of
-                    Algorithms,
-                    Principles of cloud computing, Data structures and algorithms, Waste to Wealth to Wheels, Advanced
-                    Programming Practice</td>
-                <td>C++ Language, C Programming, Front-End Web Development, Python3, Soft
-                    Skills, MongoDB, CSS, Communication Skills, SQL</td>
+                <td>Python and Scientific Python, Semiconductor Device Modelling, Satellite Signal Broadcasting, Radar and Navigational Aids, Machine Perception with Cognition, CMOS Analog IC Design</td>
+                <td>Python, C, C++, HTML/CSS, VLSI</td>
+                <td>WEB DEVELOPMENT, COMPLETE JAVA COURSE, DIGITAL MARKETING WORKSHOP, ARTIFICIAL INTELLIGENCE
+                    </td>
 
             </tr>
 
@@ -141,28 +156,76 @@
     <br>
     <br>
 
-    <div class="internships">
+    <div id="por">
         <table style="width:100%">
             <tr>
-                <th>Summer Internships</th>
+                <th>Position of Responsiblity</th>
 
             </tr>
             <tr>
                 <td>
 
-                    <p>software Developer, Trainity - Two-month full-stack(MERN) development training
-                        Learned and developed various projects of MERN stack along with Frontend Development (HTML, CSS
-                        and
-                        JS)</p>
-                    <p>student Ambassador, viral fission - This internship is about online branding which includes
-                        content creation and also many other
-                        activities.
+                    <p>Committee Head - Corporate Strategy and Implementation, Aaruush
+                    <br>CSI is the committee of Aaruush, a national level techno-management fest. I have been promoted from Volunteer position to Committee Head
+                    after displaying my skills in the work. Our major job profiles are marketing, organizing events, leading a team, crisis management. We
+                    conducted technical workshops and webinars in collaboration with popular brands like BOSCH, AUTOCAD, IBM.
+                    </p>
+                    <p>Volunteer of Rotaract Club - Rotaract, SRMIST
+                    <br>We held various fund-raising events through Khyaal for those suffering from Autism, Cancer. We also provided people in and around Chennai
+                    who are in need of basics like blankets, sweaters in winter.
                     </p>
                 </td>
             </tr>
         </table>
     </div>
 
+    <div id="Internships">
+        <table style="width:100%">
+            <tr>
+                <th>Internships</th>
+
+            </tr>
+            <tr>
+                <td>
+
+                    <p>Bolt IoT Student Partner Internship Program, Bolt IoT Feb 2022 - Present
+                    <br>Under this internship, they trained me on how to do digital marketing. Bringing sales for the company and conducting webinars on IOT and ML
+                    to create awareness is the major task of the internship.
+                    </p>
+                    <p>Salesforce Developer, Salesforce Apr 2022 - Present</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="Projects">
+        <table style="width:100%">
+            <tr>
+                <th>Projects</th>
+
+            </tr>
+            <tr>
+                <td>
+
+                    <p>Pedestrian Detection using Python - Technical Oct 2021 - Dec 2021
+                    <br>Pedestrian Detector is built using python with predefined object detectors like OpenCV, HOG, Linear SVM, Imutils. It will detect the pedestrians
+                    on street from image or video feed.
+                    </p>
+                    <p>DTMF Signal Generation of Mobile Number - Technical Oct 2021 - Dec 2021
+                    <br>DTMF (dual tone multiple frequency) code incorporates an encoder that translates digits information into dual tone signals, as well as the
+                    decoder of incoming DTMF SIGNAL.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="Contact">
+        <tr>
+            <th>Contact</th>
+            <div>Email: br6359@srmist.edu.in</div>
+            <div>Mobile: 9844663215</div>
+    </div>
 
 
 
